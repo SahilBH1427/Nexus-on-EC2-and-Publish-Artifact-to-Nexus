@@ -1,3 +1,1 @@
-##### build the project
-
-    gradle build
+# Nexus-on-EC2-and-Publish-Artifact-to-Nexus

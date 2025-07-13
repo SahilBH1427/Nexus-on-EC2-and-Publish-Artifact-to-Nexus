@@ -107,12 +107,6 @@ java-app/
 ├── src/main/java/...
 ├── gradle.properties
 └── Dockerfile (optional)
-🧠 Challenges Faced
-Gradle's implicit dependency issue between bootJar and publish: resolved by adding dependsOn
-
-Nexus initial setup was memory intensive — used t2.large
-
-Cleaned up old Git history to make the repo fresh (rebased commits)
 
 📌 Useful Commands
 bash

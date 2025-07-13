@@ -93,14 +93,9 @@ publishing {
     }
 }
 5. Publish the Artifact
-bash
-Copy
-Edit
+
 ./gradlew clean build publish
 📁 Project Structure
-css
-Copy
-Edit
 java-app/
 ├── build.gradle
 ├── settings.gradle
@@ -108,21 +103,6 @@ java-app/
 ├── gradle.properties
 └── Dockerfile (optional)
 
-📌 Useful Commands
-bash
-Copy
-Edit
-# View old commits for a file
-git log -- README.md
-
-# Revert a file to an older commit
-git checkout <commit-hash> -- README.md
-
-# Rebase to clean history
-git rebase --root -i
-
-
-Documentation from Gradle and Sonatype Nexus
 
 🔗 Connect
 Feel free to check the LinkedIn post or star the repo if you found it helpful!
